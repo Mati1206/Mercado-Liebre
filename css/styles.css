@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2? family=Roboto:wght@100&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  width: 100%;
+}
+.main {
+  background-color: #eac926;
+  text-align: left;
+}
+.center {
+  background-position: top, right;
+}
+.titulos {
+  font-size: 24px;
+}
+.precio {
+  font-size: 18px;
+}
+.descuento {
+  font-size: 16px;
+}
+
+.titulos {
+  font-size: 20px;
+}
+.burger-menu {
+  background-color: #03264c;
+  color: white;
+  font-size: 15px;
+  margin: auto;
+  border-radius: 5px;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+.pie-de-pagina {
+  margin-top: 40px;
+  text-align: center;
+  background-color: white;
+}
+.icono {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.txt {
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.banner {
+  width: 100%;
+}
+.separacion {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.detalle {
+  border-top: 1px solid #ebebeb;
+  margin: 0px 15px 15px;
+  color: #39b54a;
+}
+.img {
+  width: 100%;
+  margin: auto;
+}
+.productos {
+  background-color: #ebebeb;
+}
+@media (min-width: 361px) {
+  body {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+}
+@media (max-width: 361px) {
+  body {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+}

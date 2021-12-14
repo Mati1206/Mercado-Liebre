@@ -1,0 +1,75 @@
+@import url("normalize.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Estonia&family=Roboto:wght@100;300&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f2f2f2;
+}
+.main {
+  margin-bottom: 10px;
+  width: 100%;
+  margin: auto;
+  width: 700px;
+}
+.campo {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+.barra {
+  width: 700px;
+  height: 35px;
+}
+.button {
+  font-family: verdana;
+  width: 700px;
+}
+button:hover {
+  background-color: #0022aa;
+  color: white;
+}
+.pie {
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.icono {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+.descripcion {
+  display: flex;
+  justify-content: center;
+}
+.ico {
+  background-color: blue;
+  color: white;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  padding: 5px 0;
+  border-radius: 8px;
+  display: block;
+}
+.srl {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 90px;
+  font-size: 22px;
+}
