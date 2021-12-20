@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado Liebre</title>
     <link rel="stylesheet" href="/css/login.css">
-    <link rel="stylesheet" href="/css/styles.css"
+    <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/normalize.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 rel="stylesheet" />
@@ -15,10 +15,10 @@ rel="stylesheet" />
 </head>
 <body>
     <header class="header-container">
-   <a href="/"> <img src="/imagenes/logo-mercado-liebre.svg" alt="" width="200" class="logo"></a>   
+        <a href="/"> <img src="/imagenes/logo-mercado-liebre.svg" alt="" width="200" class="logo"></a>    
     <form action="/imagenes/logo-mercado-liebre.svg" method="post" target="_blank">
         <p class="izquierda">
-        <input type="search" name="busqueda"placeholder="Electrodomesticos,autos,celulares...">
+        <input type="search" name="busqueda"placeholder="Electrodomesticos,autos,celulares..." class="barra">
         <input type="submit" value="Buscar" />
         </p>
     </form>
@@ -34,7 +34,7 @@ rel="stylesheet" />
         <ul class="nav-der">
             <li> <a href="register">Crear cuenta </a> <i class="far fa-id-card"></i></li> 
             
-            <li><a href="#"> Ingresar</a><i class="fas fa-sign-in-alt"></i></li>
+            <li><a href="login""> Ingresar</a><i class="fas fa-sign-in-alt"></i></li>
             <li><a href="#">Mis compras</a><i class="fas fa-shopping-basket"></i></li>
         </ul>
     </nav>
@@ -46,18 +46,18 @@ rel="stylesheet" />
     <form class="log" action="/login.html" method="get">
        <div class="campo">
         <label for="login"> </label>
-        <input class="barra" type="text" name="Nombre de Usuario" placeholder="Nombre de Usuario" id="login"><br>
+        <input class="barraL" type="text" name="Nombre de Usuario" placeholder="Nombre de Usuario" id="login"><br>
     </div>
     <div class="campo">
         <label for="login2"></label>
-        <input class="barra" type="password" name="password" placeholder="Elige tu contraseña" id="login2"><br>
+        <input class="barraL" type="password" name="password" placeholder="Elige tu contraseña" id="login2"><br>
     </div>
         <div class="campo">
         <button class="button" type="submit">Enviar</button>
     </div>
     </form>
     </main>
-    <footer>
+    <footer class="footer">
         <ul class="pie">
             <div class="a">
             <li> <strong class="icono"> </strong>
@@ -83,9 +83,8 @@ rel="stylesheet" />
           <p class="descripcion">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
               porque estás siempre protegid@.</p>
             </div>
-
       </ul>
-    <p class="srl">Copyright © 1999-2020 MercadoLiebre S.R.L.</p><br>
+      <p class="srl"> <b>Copyright © 1999-2020 MercadoLiebre S.R.L.</b></p><br>
     </footer>
     </body>
     </html>

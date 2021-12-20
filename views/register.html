@@ -15,10 +15,10 @@ rel="stylesheet" />
 </head>
 <body>
     <header class="header-container">
-        <a href="/"> <img src="/imagenes/logo-mercado-liebre.svg" alt="" width="200" class="logo"></a>   
+        <a href="/"> <img src="/imagenes/logo-mercado-liebre.svg" alt="" width="200" class="logo"></a>    
     <form action="/imagenes/logo-mercado-liebre.svg" method="post" target="_blank">
         <p class="izquierda">
-        <input type="search" name="busqueda"placeholder="Electrodomesticos,autos,celulares...">
+        <input type="search" name="busqueda"placeholder="Electrodomesticos,autos,celulares..." class="barra">
         <input type="submit" value="Buscar" />
         </p>
     </form>
@@ -32,9 +32,9 @@ rel="stylesheet" />
             <li>  <a href="#">Ayuda</a></li>
         </ul>
         <ul class="nav-der">
-            <li> <a href="#">Crear cuenta </a> <i class="far fa-id-card"></i></li> 
+            <li> <a href="register">Crear cuenta </a> <i class="far fa-id-card"></i></li> 
             
-            <li><a href="login">Ingresar</a><i class="fas fa-sign-in-alt"></i></li>
+            <li><a href="login""> Ingresar</a><i class="fas fa-sign-in-alt"></i></li>
             <li><a href="#">Mis compras</a><i class="fas fa-shopping-basket"></i></li>
         </ul>
     </nav>
@@ -47,50 +47,93 @@ rel="stylesheet" />
         <div>
         <label></label><br>
         <div class="campo">
-        <input  type="text" name="nombre" placeholder="Nombre y Apellido"> <br>
+        <input  type="text" name="nombre" placeholder="Nombre y Apellido" class="barraR"> <br>
     </div>
     
         
         <label> </label><br>
         <div class="campo">
-        <input type="text" name="user" placeholder="Nombre de usuario"><br>
+        <input type="text" name="user" placeholder="Nombre de usuario" class="barraR"><br>
     </div>
     <label></label><br>
     <div class="campo">
-        <input type="email" name="Direccion" placeholder="E-mail"><br>
+        <input type="email" name="Direccion" placeholder="E-mail"  class="barraR"> <br>
     </div>
        <h3 class="titulo">Fecha de nacimiento</h3> 
         <div class="campo">
-        <input type="date" name="fecha de nacimiento"><br>
+        <input type="date" name="fecha de nacimiento"  class="barraR"> <br>
     </div>
     <label></label><br>
     <div class="campo">
-        <input type="dirname" name="Domicilio" placeholder="Domicilio"><br>
+        <input type="dirname" name="Domicilio" placeholder="Domicilio" class="barraR"><br>
     </div>
         <h3 class="titulo"> Perfil del usuario</h3>
         <div class="campo">
-        <input type="radio" name="Tipo"value="Comprador" id="perfil1"> 
-        <label for="perfil1"> Comprador</label>
-        <input type="radio" name="Tipo"value="Vendedor" id="perfil"> 
-        <label for="perfil"> Vendedor</label><br>
+             <input type="radio" name="Tipo"value="Comprador" id="perfil1"> 
+             <label for="perfil1"> Comprador</label>
+         <div class="campo0">
+              <input type="radio" name="Tipo"value="Vendedor" id="perfil"> 
+                <label for="perfil"> Vendedor</label><br>
+         </div>
     </div>
         <h3 class="titulo"> Mi interes</h3>
         <div class="campo1">
+            <div class="sub-clase">
         <input type="checkbox" name="Seccion" value="1" id="interes1">
         <label for="interes1">Electro</label><br>
+            </div>
+            <div class="sub-clase">
         <input type="checkbox" name="Seccion" value="2" id="interes2">
         <label for="interes2">Moda</label><br>
+            </div>
+            <div class="sub-clase">
         <input type="checkbox" name="Seccion" value="3" id="interes3"> 
         <label for="interes3">Hogar</label><br>
+    </div>
+    <div class="sub-clase">
         <input type="checkbox" name="Seccion" value="4" id="interes4">
         <label for="interes4">Jugeteria</label><br>
+    </div>
+        <div class="sub-clase">
         <input type="checkbox" name="Seccion" value="5" id="interes5">
         <label for="interes5">Vida Sana</label><br>
+    </div>
+        <div class="sub-clase">
         <button type="submit">Enviar</button>
         <button type="reset">Borrar</button>
     </div>
     </div>
+    </div>
     </form>
 </main>
+<footer class="footer">
+    <ul class="pie">
+        <div class="a">
+        <li> <strong class="icono"> </strong>
+            <div class="ico"> 
+                <i class="fas fa-credit-card"></i></div>
+            <strong class="titulo"> Paga con tarjeta o en efectivo</strong></li>
+      <p class="descripcion">Con mercado liebre Cash, tenes cuotas sin interes con tarjeta o efectivo en puntos de pago ¡Y siempre es seguro!</p>
+    </div>
+    <div class="a">
+      <li><strong class="icono"></strong>
+        <div class="ico">   
+        <i class="fas fa-gift"></i>
+    </div>
+       <strong class="titulo">  Envios gratis desde $2500</strong></li>
+        <p class="descripcion">solo por estar registrado en mercado liebre tenes envios gratis en miles de productos. Es un beneficio de Mercado puntos</p> <br>   
+    </div>
+    <div class="a">
+        <li><strong class="icono"></strong>
+          <div class="ico"> 
+              <i class="fas fa-user-shield"></i>
+            </div>
+        <strong class="titulo">Seguridad de principio a fin</strong></li>
+      <p class="descripcion">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+          porque estás siempre protegid@.</p>
+        </div>
+  </ul>
+  <p class="srl"> <b>Copyright © 1999-2020 MercadoLiebre S.R.L.</b></p><br>
+</footer>
 </body>
 </html>
